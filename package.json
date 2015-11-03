@@ -1,0 +1,37 @@
+{
+    "name": "x2js-convert",
+    "version": "1.0.0",
+    "description": "Command line app to convert between XML and JSON",
+    "main": "x2js-convert.js",
+    "files": [
+        "convert.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Axinom/x2js-convert.git"
+    },
+    "keywords": [
+        "x2js",
+        "convert",
+        "xml",
+        "json"
+    ],
+    "author": "Axinom",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Axinom/x2js-convert/issues"
+    },
+    "homepage": "https://github.com/Axinom/x2js-convert#readme",
+    "devDependencies": {
+        "eslint": "^1.8.0",
+        "eslint-config-axinom": "^1.0.3"
+    },
+    "dependencies": {
+        "commander": "^2.9.0",
+        "x2js": "^2.0.0",
+        "xmldom": "^0.1.19"
+    },
+    "eslintConfig": {
+        "extends": "axinom"
+    }
+}
